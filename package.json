@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "serverless-offline": "^6.8.0"
+  },
+  "scripts": {
+    "start": "/usr/local/bin/serverless offline -s dev",
+    "debug": "export SLS_DEBUG=* && node --inspect /usr/local/bin/serverless offline -s dev"
+  }
+}
