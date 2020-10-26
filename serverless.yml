@@ -21,6 +21,7 @@ service: serverless-debug
 frameworkVersion: "1"
 
 plugins:
+  - serverless-plugin-typescript
   - serverless-offline
 
 provider:

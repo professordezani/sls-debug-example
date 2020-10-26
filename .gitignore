@@ -4,3 +4,5 @@ jspm_packages
 
 # Serverless directories
 .serverlessnode_modules
+
+.build

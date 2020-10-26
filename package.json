@@ -5,5 +5,9 @@
   "scripts": {
     "start": "/usr/local/bin/serverless offline -s dev",
     "debug": "export SLS_DEBUG=* && node --inspect /usr/local/bin/serverless offline -s dev"
+  },
+  "devDependencies": {
+    "serverless-plugin-typescript": "^1.1.9",
+    "typescript": "^4.0.3"
   }
 }
